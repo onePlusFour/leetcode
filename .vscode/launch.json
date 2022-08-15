@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",// The name appears in the VS Code dropdown list
+            "type": "python",//程序类型
+            "request": "launch",
+            "python": "/opt/anaconda3/envs/py37/bin/python", // 指定python解释器
+            "program": "${file}", //指定运行入口程序，默认是当前程序，可以给定具体的路径
+            "cwd": "${fileDirname}", //指定运行空间目录，defaults to ${workspaceFolder} (the folder open in VS Code).
+            "console": "integratedTerminal",
+        }
+    ]
+}
